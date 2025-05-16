@@ -18,11 +18,10 @@ public class ContaTerminal {
         String nomeCliente = scanner.next();
         double saldo = (237.48);
         // Obter pela Scanner os valores digitados no termimal
+        
+        // Exibir a mensagem conta criada com sucesso
         System.out.println("Olá, " + nomeCliente + "! Seja bem-vindo ao Banco Digital! Obrigado por criar sua conta em nosso Banco.");
         System.out.println("Sua conta é: " + numeroConta + " e sua agência é: " + numeroAgencia);
         System.out.println("Seu saldo é: " + saldo + " reais, já disponível para saque.");
-        // Exibir a mensagem conta criada com sucesso
-
-
     }
 }
